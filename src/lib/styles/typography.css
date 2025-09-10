@@ -1,0 +1,14 @@
+.dropcap:first-letter {
+  float: left;
+  font-family: var(--serif);
+  font-size: 3.2em;
+  line-height: .9;
+  padding: .05em .1em 0 .02em;
+  color: var(--accent);
+}
+
+.caption {
+  color: var(--muted);
+  font-size: .9rem;
+  margin-top: .5rem;
+}
