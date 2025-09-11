@@ -25,7 +25,7 @@
 
 <header class="container" id="top" style="padding: 4rem 0 2rem;">
   <p class="badge">Portfolio</p>
-  <h1 class="h0" style="margin: 0.2rem 0 1rem;">Storie dai dati, chiare e giocabili.</h1>
+  <h1 class="h0" style="margin: 0.2rem 0 1rem;">Raccontare una storia, partendo dai dati</h1>
   <p class="subtle" style="max-width: 62ch;">
     Uso dati, design e codice per spiegare cose complicate in modo semplice — con scrollytelling, micro-interazioni e trasparenza metodologica.
   </p>
@@ -35,8 +35,8 @@
   <p class="rotating"><strong>{rotating[index]}</strong></p> -->
 
   <div style="margin-top: 1.25rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-    <a class="button" href="#work">Guarda i progetti →</a>
-    <a class="button" href="#methods">Come lavoro</a>
+    <a class="button" href="#articles"> <b> Leggi i miei articoli </b> </a>
+    <a class="button" href="#projects"> <b> Guarda i miei progetti </b> </a>
   </div>
 </header>
 
@@ -64,6 +64,12 @@
 .button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
+color: var(--accent);
+}
+
+.button:hover {
+  background-color: var(--accent);
+  color: white;                 /* Inverti colori al passaggio del mouse */
 }
 
 @media (max-width: 768px) {
@@ -73,6 +79,7 @@
   .button {
     padding: 0.4rem 0.8rem;
     font-size: 0.9rem;
+	color: var(--accent);
   }
 }
 

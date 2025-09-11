@@ -49,7 +49,8 @@
   grid-template-columns: 1fr auto 1fr; /* sinistra-centro-destra */
   align-items: center;
   gap: 1rem;
-  padding: 1rem 2rem;
+  
+	
 }
 
 /* 🔸 Sinistra */
@@ -99,8 +100,8 @@ strong {
 }
 
 .links img {
-  width: 100px;       /* 🔹 Aumenta la larghezza */
-  height: 100px;      /* 🔹 Aumenta l’altezza */
+  width: 110px;       /* 🔹 Aumenta la larghezza */
+  height: 110px;      /* 🔹 Aumenta l’altezza */
   display: block;
   transition: transform 0.2s ease;
 }
@@ -125,7 +126,7 @@ strong {
 }
 
 .center-logo img {
-  height: 150px;           /* 🔹 Altezza del logo */
+  height: 250px;           /* 🔹 Altezza del logo */
   width: auto;            /* Mantiene le proporzioni */
   display: block;
   transition: transform 0.2s ease;
@@ -138,7 +139,7 @@ strong {
 /* 📱 Su mobile: leggermente più piccolo */
 @media (max-width: 768px) {
   .center-logo img {
-    height: 150px;
+    height: 200px;
   }
 }
 </style>

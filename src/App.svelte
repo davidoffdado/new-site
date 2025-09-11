@@ -30,7 +30,7 @@
 
 {#if view === 'home'}
   <main class="container" id="articles" style="padding:2rem 0">
-    <h2 class="h1" style="margin:0 0 1rem">Gli ultimi articoli</h2>
+    <h2 class="h1" style="margin:0 0 1rem">Gli articoli</h2>
     <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem">
       {#each articles.slice(0,3) as a}
         <ProjectCard project={a} />
@@ -42,7 +42,7 @@
   </main>
 
 <main class="container" id="projects" style="padding:2rem 0">
-  <h2 class="h1" style="margin:0 0 1rem">Gli ultimi progetti</h2>
+  <h2 class="h1" style="margin:0 0 1rem">I progetti</h2>
   <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem">
     {#each projects.slice(0,3) as p}
       <ProjectCard project={p} />
@@ -54,7 +54,7 @@
 </main>
 
 <main class="container" id="newsletter" style="padding:2rem 0">
-  <h2 class="h1" style="margin:0 0 1rem">Una newsletter sull'incertezza</h2>
+  <h2 class="h1" style="margin:0 0 1rem">La newsletter</h2>
   <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem">
     {#each projects.slice(0,3) as p}
       <ProjectCard project={p} />
