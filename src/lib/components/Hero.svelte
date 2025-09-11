@@ -37,6 +37,7 @@
   <div style="margin-top: 1.25rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
     <a class="button" href="#articles"> <b> Leggi i miei articoli </b> </a>
     <a class="button" href="#projects"> <b> Guarda i miei progetti </b> </a>
+    <a class="button" href="#newsletter"> <b> Sfoglia la mia newsletter </b> </a>
   </div>
 </header>
 
@@ -64,7 +65,7 @@
 .button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
-color: var(--accent);
+  color: var(--accent);
 }
 
 .button:hover {

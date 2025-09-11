@@ -23,3 +23,24 @@
   background-color: var(--accent);
   color: white;
 }
+
+.social-icons ul {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.social-icons li a {
+  color: lightgrey; /* Colore iniziale */
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.social-icons li a:hover {
+  color: var(--accent); /* Arancione al passaggio */
+  transform: scale(1.2);
+}
+
+

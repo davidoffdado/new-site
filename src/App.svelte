@@ -37,7 +37,7 @@
       {/each}
     </div>
     <p style="margin-top:1rem">
-      <a class="button" on:click={() => view = 'all-articles'}>Vedi tutti gli articoli →</a>
+      <a class="button" on:click={() => view = 'all-articles'}> <b> Vedi tutti gli articoli → </b> </a>
     </p>
   </main>
 
@@ -49,7 +49,7 @@
     {/each}
   </div>
   <p style="margin-top:1rem">
-    <a class="button" on:click={() => view = 'all-projects'}>Vedi tutti i progetti →</a>
+    <a class="button" on:click={() => view = 'all-projects'}> <b> Vedi tutti i progetti → </b></a>
   </p>
 </main>
 
@@ -61,7 +61,14 @@
     {/each}
   </div>
   <p style="margin-top:1rem">
-    <a class="button" on:click={() => view = 'all-projects'}>Vedi tutti i progetti →</a>
+      <a
+    	class="button"
+    	href="https://aalea.substack.com/"  
+    	target="_blank"
+    	rel="noopener"
+  	> 
+	<b> Vai alla mia newsletter → </b> 
+	</a>
   </p>
 </main>
 
@@ -103,11 +110,65 @@
   <section class="container" id="contact" style="margin-top:2rem">
     <h2 class="h1">Contatti</h2>
     <div class="card" style="padding:1rem 1.25rem">
-      <p>Email: <a href="mailto:davidruffini@email.com">davidruffini@email.com</a></p>
+      <p>Email: <a href="mailto:davidruffini98@email.com">davidruffini98@email.com</a></p>
       <p>GitHub: <a href="https://github.com/davidoffdado" target="_blank" rel="noopener">@davidoffdado</a></p>
       <p>Twitter: <a href="https://twitter.com/davidruffini_" target="_blank" rel="noopener">@davidruffini_</a></p>
-      <p class="caption">Portfolio open-source. Puoi clonarlo e adattarlo liberamente.</p>
-    </div>
+	 <p>Linkedin: <a href="https://www.linkedin.com/in/david-ruffini-56a5a1161/" target="_blank" rel="noopener">@davidruffini_</a></p>
+	 <p>Instagram: <a href="https://www.instagram.com/david_ruffini/" target="_blank" rel="noopener">@davidruffini_</a></p>
+	 <p>Substack: <a href="https://substack.com/@davidruffini1" target="_blank" rel="noopener">@davidruffini_</a></p>
+
+      
+   
+
+<div class="social-icons">
+  <ul>
+
+	    <!-- Email -->
+    <li>
+      <a href="mailto:davidruffini98@email.com">
+        <i class="fa fa-envelope fa-2x"></i>
+      </a>
+    </li>
+
+    <!-- Instagram -->
+    <li>
+      <a href="https://www.instagram.com/david_ruffini/" target="_blank" rel="noopener">
+        <i class="fa fa-instagram fa-2x"></i>
+      </a>
+    </li>
+
+    <!-- LinkedIn -->
+    <li>
+      <a href="https://www.linkedin.com/in/david-ruffini-56a5a1161/" target="_blank" rel="noopener">
+        <i class="fa fa-linkedin fa-2x"></i>
+      </a>
+    </li>
+
+    <!-- Substack -->
+    <li>
+      <a href="https://substack.com/@davidruffini1" target="_blank" rel="noopener">
+        <i class="fa fa-rss fa-2x"></i>
+      </a>
+    </li>
+
+	    <!-- Twitter -->
+    <li>
+      <a href="https://twitter.com/davidruffini_" target="_blank" rel="noopener">
+        <i class="fa fa-twitter fa-2x"></i>
+      </a>
+    </li>
+
+	    <!-- GitHub -->
+    <li>
+      <a href="https://github.com/davidoffdado" target="_blank" rel="noopener">
+        <i class="fa fa-github fa-2x"></i>
+      </a>
+    </li>
+	
+  </ul>
+</div>
+ </div>
+
   </section>
 {/if}
 
