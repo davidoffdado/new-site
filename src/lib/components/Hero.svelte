@@ -26,8 +26,12 @@
 <header class="container" id="top" style="padding: 4rem 0 2rem;">
   <p class="badge">Portfolio</p>
   <h1 class="h0" style="margin: 0.2rem 0 1rem;">Raccontare una storia, partendo dai dati</h1>
-  <p class="subtle" style="max-width: 62ch;">
-    Uso dati, design e codice per spiegare cose complicate in modo semplice — con scrollytelling, micro-interazioni e trasparenza metodologica.
+  <p class="subtle" style="max-width: 100%;">
+    I numeri non sono noiosi e, anzi, ci aiutano a capire meglio la realtà che ci circonda; il nostro mondo, però, ha poche certezze e ciascun dato deve essere interpretato al meglio, non solo proiettato in un grafico. Fortunatamente, hanno inventato la Statistica.
+  </p>
+
+  <p class="subtle" style="max-width: 100%;">
+   La sezione relativa agli articoli contiene tutti i miei lavori pubblicati dalle testate giornalistiche, mentre i progetti si riferiscono a quelle attività che hanno richiesto (e richiedono) un maggiore impegno in termini di tempo e risorse dedicate. Infine, la mia opera più recente: una newsletter che parla di probabilità e incertezza, per cercare di mostrare le situazioni in cui i numeri sembrano volerci ingannare.
   </p>
 
   <!-- Blocco dinamico 

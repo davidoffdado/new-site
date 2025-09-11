@@ -9,20 +9,6 @@
   import { articles, projects } from './data/projects.js';
 
   let view = 'home';
-
-  const steps = [
-    { title: 'Contesto', text: 'Inizio con una domanda chiara e un dataset pulito.' },
-    { title: 'Analisi', text: 'Esploro pattern con notebook e prototipi rapidi.' },
-    { title: 'Narrazione', text: 'Scelgo la visualizzazione più onesta ed efficace.' },
-    { title: 'Interazione', text: 'Aggiungo micro-interazioni utili, mai gratuite.' }
-  ];
-
-  const methods = [
-    { label: 'Dati', text: 'CSV/Parquet; pulizia con Python + Pandas/Polars.' },
-    { label: 'Analisi', text: 'Notebook riproducibili; versioning su Git.' },
-    { label: 'Viz', text: 'Svelte + Canvas/SVG; accessibile e responsivo.' },
-    { label: 'Etica', text: 'Preferisco semplicità e trasparenza a effetti speciali.' }
-  ];
 </script>
 
 <Nav />
@@ -73,22 +59,22 @@
 </main>
 
 
-  <section class="container" aria-labelledby="scrolly">
-    <h2 id="scrolly" class="h1" style="margin:1rem 0">Processo, passo dopo passo</h2>
-    <Scroller {steps} let:current>
-      <div slot="graphic" let:current>
-        <StickyChart {current} />
-      </div>
-    </Scroller>
-  </section>
 
 <section class="container about-section" id="about">
   <div class="about-text">
     <h2 class="h1">Chi sono</h2>
     <p>
-      Sono un data journalist appassionato di visualizzazione e narrazione con i dati.
-      Uso design e codice per trasformare informazioni complesse in storie chiare e coinvolgenti.
-    </p>
+      Ciao, chi sono? :) <br>
+	Sono David Ruffini, un classe 1998 di Macerata interessato al giornalismo, ai dati e alla probabilità. </p>
+
+<p> Sono laureato in Scienze Statistiche e lavoro con i dati, ma soprattutto cerco di dare loro un senso, in modo da capire meglio ciò che ci circonda. Per altri dettagli su ciò che ho studiato e sulle mie esperienze lavorative vi rimando a <a href="https://www.linkedin.com/in/david-ruffini-56a5a1161/"> LinkedIn</a>.
+</p> 
+
+<p> 
+L’incertezza mi ha sempre incuriosito. Entrambe le mie tesi hanno avuto a che fare con la probabilità e con i comportamenti delle persone, ma il caso è sempre stato qualcosa che mi ha dato molto da pensare (o forse sto semplicemente razionalizzando ex-post).
+</p>
+
+<p> Fortunatamente, siamo altro oltre il lavoro. Qualche parola a caso per dire altro su di me: libri, film, allenamento, cucina e tante altre. </p>
   </div>
 
   <div class="about-photo">
@@ -100,25 +86,31 @@
 
   <section class="container" id="methods" style="margin-top:2rem">
     <h2 class="h1">Cosa faccio</h2>
-    <div class="card" style="padding:1rem 1.25rem">
-      <p class="subtle">David Ruffini — Statistico e data journalist, principalmente per Il Sole 24 Ore. Esperienza con Python, SQL, Svelte, D3 e grafica su Canvas/SVG.</p>
-      <p class="subtle">Premi/menzioni, collaborazioni e contatti media su richiesta.</p>
+    <div class="about-text">
+<p> Provo a fare il data journalist. </p>
+      <p> Durante i miei studi universitari mi sono avvicinato al mondo della probabilità e del data journalism, convinto che nell’informazione di oggi ci sia spazio (e sia esso necessario) per una comunicazione basata sui dati e sulla cultura dell’incertezza. Ho quindi iniziato a coltivare un portfolio di analisi e a collaborare con Il Sole 24 Ore, contribuendo al blog <a href="https://www.infodata.ilsole24ore.com/"> Info Data</a>. Successivamente, ho lanciato una newsletter: si chiama <a href="https://aalea.substack.com/"> àlea </a> e parla di probabilità. </p>
+
+<p> Finora mi sono occupato di argomenti trasversali tra di loro, ma spesso mi ritrovo a scrivere di conflitti o di temi legati all'incertezza. Qualche tempo fa ho realizzato uno <a href="https://www.davidruffini.com/stato-delle-carceri"> scraper </a> che aggiorna quotidianamente, in maniera automatica, i dati relativi all’affollamento carcerario in Italia; il progetto è stato selezionato dal <a href="https://gijn.org/stories/europes-deadly-heatwave-middle-east-ceasefires/"> Global Investigative Journalism Network </a> tra i migliori dieci lavori di data journalism realizzati nelle prime settimane di luglio 2025. </p>
+
+<p>
+Nel frattempo, lavoro come data analyst in una società di consulenza.
+</p>
+      
     </div>
   </section>
 
 
   <section class="container" id="contact" style="margin-top:2rem">
     <h2 class="h1">Contatti</h2>
-    <div class="card" style="padding:1rem 1.25rem">
-      <p>Email: <a href="mailto:davidruffini98@email.com">davidruffini98@email.com</a></p>
-      <p>GitHub: <a href="https://github.com/davidoffdado" target="_blank" rel="noopener">@davidoffdado</a></p>
-      <p>Twitter: <a href="https://twitter.com/davidruffini_" target="_blank" rel="noopener">@davidruffini_</a></p>
-	 <p>Linkedin: <a href="https://www.linkedin.com/in/david-ruffini-56a5a1161/" target="_blank" rel="noopener">@davidruffini_</a></p>
-	 <p>Instagram: <a href="https://www.instagram.com/david_ruffini/" target="_blank" rel="noopener">@davidruffini_</a></p>
-	 <p>Substack: <a href="https://substack.com/@davidruffini1" target="_blank" rel="noopener">@davidruffini_</a></p>
+    <div class="about-text">
+<p> Lavoro su tutto ciò che può essere rappresentato in una dimensione numerica o che può essere visto sotto la lente dell'incertezza. </p>
+<p>
+Ti serve una mano per un progetto, un articolo o un’inchiesta che richiede analisi e visualizzazioni? <br>
+Pensi che quel numero letto nei giornali nasconda altro o sia sbagliato? <br>
+Parliamone!
+</p>
+<p>  Scrivimi sulla mail <a href="mailto:davidruffini98@email.com">davidruffini98@email.com </a> o tramite i social presenti in fondo alla pagina. Ci sentiamo :) </p>
 
-      
-   
 
 <div class="social-icons">
   <ul>

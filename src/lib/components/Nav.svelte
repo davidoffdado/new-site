@@ -104,13 +104,14 @@ strong {
   height: 110px;      /* 🔹 Aumenta l’altezza */
   display: block;
   transition: transform 0.2s ease;
+	gap: 0.1rem; 
 }
 
 .links a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.4rem;   /* Spazio intorno alle icone */
+  padding: 0.1rem;   /* Spazio intorno alle icone */
 }
 
 .links a:hover img {
