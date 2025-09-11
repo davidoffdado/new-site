@@ -30,14 +30,16 @@
 
   <!-- 🔸 Centro: Data Stories -->
   <div class="center-logo">
-    David Ruffini
+      <a href="#top">
+    <img src="/new-site/davidruffini.png" alt="David Ruffini">
+  </a>
   </div>
 
   <!-- 🔸 Destra: link di navigazione -->
   <div class="links">
-    <a href="#about" class="badge">Chi sono</a>
-    <a href="#methods" class="badge">Cosa faccio</a>
-    <a href="#contact" class="badge">Contatti</a>
+    <a href="#about" class="badge"><img src="/new-site/chisono.png" alt="Chi sono" /></a>
+    <a href="#methods" class="badge"><img src="/new-site/cosa-faccio.png" alt="Cosa faccio" /></a>
+    <a href="#contact" class="badge"><img src="/new-site/contatti.png" alt="Contatti" /></a>
   </div>
 </nav>
 
@@ -93,6 +95,50 @@ strong {
   .links {
     grid-column: 1 / -1;
     justify-self: center;
+  }
+}
+
+.links img {
+  width: 100px;       /* 🔹 Aumenta la larghezza */
+  height: 100px;      /* 🔹 Aumenta l’altezza */
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem;   /* Spazio intorno alle icone */
+}
+
+.links a:hover img {
+  transform: scale(1.1);
+}
+
+/* 📱 Su mobile: leggermente più piccole */
+@media (max-width: 768px) {
+  .links img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.center-logo img {
+  height: 150px;           /* 🔹 Altezza del logo */
+  width: auto;            /* Mantiene le proporzioni */
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.center-logo img:hover {
+  transform: scale(1.05); /* Leggero zoom al passaggio */
+}
+
+/* 📱 Su mobile: leggermente più piccolo */
+@media (max-width: 768px) {
+  .center-logo img {
+    height: 150px;
   }
 }
 </style>
