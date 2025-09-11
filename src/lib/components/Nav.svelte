@@ -5,8 +5,7 @@
   const rotating = [
     'uno statistico',
     'un data journalist',
-    'un appassionato di probabilità',
-    'un feroce lettore'
+    'un divulgatore della probabilità'
   ];
 
   let index = 0;
@@ -36,10 +35,8 @@
 
   <!-- 🔸 Destra: link di navigazione -->
   <div class="links">
-    <a href="#articles" class="badge">Articoli</a>
-    <a href="#projects" class="badge">Progetti</a>
     <a href="#about" class="badge">Chi sono</a>
-    <a href="#methods" class="badge">Metodologia</a>
+    <a href="#methods" class="badge">Cosa faccio</a>
     <a href="#contact" class="badge">Contatti</a>
   </div>
 </nav>
@@ -47,48 +44,55 @@
 <style>
 .nav-bar {
   display: grid;
-  grid-template-columns: auto 1fr 1fr;
+  grid-template-columns: 1fr auto 1fr; /* sinistra-centro-destra */
   align-items: center;
-  padding: 1rem 0;
+  gap: 1rem;
+  padding: 1rem 2rem;
 }
 
 /* 🔸 Sinistra */
 .left-text {
+	  justify-self: start;   /* allinea a sinistra */
   font-size: 1rem;
   color: var(--ink);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 250px;
-  position: absolute;
-  left: 12%;
-top: 20px;
+  white-space: normal;   /* consente il ritorno a capo */	
+
 }
 
 /* 🔸 Centro */
 .center-logo {
-  text-align: center;
+  justify-self: center;  /* mantiene il logo centrato */
   font-size: 1.4rem;
   font-weight: bold;
   color: var(--ink);
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-	top: 20px;
 }
 
 /* 🔸 Destra */
 .links {
+  justify-self: end;
   display: flex;
-  gap: .8rem;
-  justify-content: flex-end;
-  align-items: center;
-  position: absolute;
-  left: 70%;
-top: 20px;
+  gap: 0.8rem;
+  flex-wrap: wrap; /* Avvolge su mobile */
 }
 
 strong {
   color: var(--accent);
+}
+
+/* ✅ Mobile: nav verticale */
+@media (max-width: 768px) {
+  .nav-bar {
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+  }
+  .center-logo {
+    grid-column: 1 / -1;
+    justify-self: center;
+    margin-bottom: 0.5rem;
+  }
+  .links {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
 }
 </style>

@@ -55,5 +55,26 @@
   text-align: center;
   transition: opacity 0.5s ease-in-out;
 }
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem 2rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 2rem 1rem;
+  }
+  .button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
 </style>
 

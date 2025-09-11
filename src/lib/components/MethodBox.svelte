@@ -9,3 +9,10 @@
     {/each}
   </ul>
 </div>
+
+<style>
+.card {
+  width: 100%;
+  max-width: 100%;
+}
+</style>
