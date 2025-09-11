@@ -160,17 +160,14 @@
 
 .about-section {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;     /* Mobile: una colonna */
   gap: 2rem;
   align-items: center;
   margin-top: 2rem;
+  text-align: center;
 }
 
-.about-text {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
+/* Foto di default su mobile */
 .about-photo img {
   width: 100%;
   max-width: 300px;
@@ -178,14 +175,17 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* 📱 Su schermi piccoli, impila verticalmente */
-@media (max-width: 768px) {
+/* 📺 Su schermi grandi (desktop), due colonne 50/50 */
+@media (min-width: 992px) {
   .about-section {
-    grid-template-columns: 1fr;
-    text-align: center;
+    grid-template-columns: 1fr 1fr; /* due colonne uguali */
+    text-align: left;
   }
+
   .about-photo img {
-    margin: 1rem auto 0;
+    width: 100%;         /* Occupa tutta la metà destra */
+    max-width: none;     /* Rimuove il limite di 300px */
+    border-radius: 12px;
   }
 }
 
