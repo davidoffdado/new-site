@@ -1,7 +1,7 @@
 export const projects = [
 {
 title: 'Il sovraffollamento delle carceri italiane',
-dek: 'Un web scraper che aggiorna quotidiniamente lo stato dei penitenziari italiani',
+dek: 'Un web scraper che aggiorna quotidianamente lo stato dei penitenziari italiani',
 role: '',
 year: 2025,
 tags: [],
