@@ -6,7 +6,9 @@
   import Scroller from './lib/components/Scroller.svelte';
   import StickyChart from './lib/components/StickyChart.svelte';
   import MethodBox from './lib/components/MethodBox.svelte';
-  import { articles, projects } from './data/projects.js';
+  import { articles } from './data/articles.js';
+  import { projects } from './data/projects.js';
+  import { newsletter } from './data/newsletter.js';
 
   let view = 'home';
 </script>
@@ -42,7 +44,7 @@
 <main class="container" id="newsletter" style="padding:2rem 0">
   <h2 class="h1" style="margin:0 0 1rem">La newsletter</h2>
   <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem">
-    {#each projects.slice(0,3) as p}
+    {#each newsletter.slice(0,3) as p}
       <ProjectCard project={p} />
     {/each}
   </div>
