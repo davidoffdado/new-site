@@ -30,16 +30,16 @@
 
   <!-- 🔸 Centro: Data Stories -->
   <div class="center-logo">
-      <a href="#top">
+      <a href="https://www.davidruffini.com/">
     <img src="/davidruffini.png" alt="David Ruffini">
   </a>
   </div>
 
   <!-- 🔸 Destra: link di navigazione -->
   <div class="links">
-    <a href="/#about" class="badge"><img src="/chisono.png" alt="Chi sono" /></a>
-    <a href="/#methods" class="badge"><img src="/cosa-faccio.png" alt="Cosa faccio" /></a>
-    <a href="/#contact" class="badge"><img src="/contatti.png" alt="Contatti" /></a>
+    <a href="https://www.davidruffini.com/#about" class="badge"><img src="/chisono.png" alt="Chi sono" /></a>
+    <a href="https://www.davidruffini.com/#methods" class="badge"><img src="/cosa-faccio.png" alt="Cosa faccio" /></a>
+    <a href="https://www.davidruffini.com/#contact" class="badge"><img src="/contatti.png" alt="Contatti" /></a>
   </div>
 </nav>
 
