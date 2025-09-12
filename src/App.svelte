@@ -10,7 +10,40 @@
   import { projects } from './data/projects.js';
   import { newsletter } from './data/newsletter.js';
 
-  let view = 'home';
+
+    import { onMount } from 'svelte';
+  import { tick } from 'svelte';
+
+  let view = 'home'; // 'home' | 'all-articles' | 'all-projects'
+
+  async function syncViewWithHash() {
+    const h = (location.hash || '').slice(1); // senza '#'
+
+    if (h === 'all-articles' || h === 'all-projects') {
+      view = h;
+      return;
+    }
+
+    // per qualunque altro hash (about, methods, contact, o stringa vuota) torniamo alla home
+    view = 'home';
+    await tick(); // aspetta che la home sia renderizzata
+
+    if (h) {
+      const el = document.getElementById(h);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else {
+      // nessun hash: torna in cima
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
+
+  onMount(() => {
+    syncViewWithHash(); // all’avvio (gestisce accesso diretto a /#all-articles ecc.)
+    window.addEventListener('hashchange', syncViewWithHash);
+  });
+
+
+
 </script>
 
 <Nav />
@@ -25,7 +58,7 @@
       {/each}
     </div>
     <p style="margin-top:1rem">
-      <a class="button" on:click={() => view = 'all-articles'}> <b> Vedi tutti gli articoli → </b> </a>
+      <a class="button" href="#all-articles"> <b> Vedi tutti gli articoli → </b> </a>
     </p>
   </main>
 
@@ -37,7 +70,7 @@
     {/each}
   </div>
   <p style="margin-top:1rem">
-    <a class="button" on:click={() => view = 'all-projects'}> <b> Vedi tutti i progetti → </b></a>
+    <a class="button" href="#all-projects"> <b> Vedi tutti i progetti → </b></a>
   </p>
 </main>
 
