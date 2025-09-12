@@ -37,9 +37,9 @@
 
   <!-- 🔸 Destra: link di navigazione -->
   <div class="links">
-    <a href="/new-site/#about" class="badge"><img src="/new-site/chisono.png" alt="Chi sono" /></a>
-    <a href="/new-site/#methods" class="badge"><img src="/new-site/cosa-faccio.png" alt="Cosa faccio" /></a>
-    <a href="/new-site/#contact" class="badge"><img src="/new-site/contatti.png" alt="Contatti" /></a>
+    <a href="/#about" class="badge"><img src="/new-site/chisono.png" alt="Chi sono" /></a>
+    <a href="/#methods" class="badge"><img src="/new-site/cosa-faccio.png" alt="Cosa faccio" /></a>
+    <a href="/#contact" class="badge"><img src="/new-site/contatti.png" alt="Contatti" /></a>
   </div>
 </nav>
 
