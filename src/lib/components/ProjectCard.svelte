@@ -2,7 +2,7 @@
   export let project;
 </script>
 
-<a class="card" href={project.link} target="_blank" rel="noopener">
+<a class="card" href={project.url} target="_blank" rel="noopener">
   <!-- Immagine in alto -->
   {#if project.cover}
     <div class="image-container">
