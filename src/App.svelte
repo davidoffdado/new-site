@@ -80,7 +80,7 @@ L’incertezza mi ha sempre incuriosito. Entrambe le mie tesi hanno avuto a che 
   </div>
 
   <div class="about-photo">
-    <img src="/IMG-20250309-WA0129.jpg" alt="Foto di David Ruffini">
+    <img src="/new-site/IMG-20250309-WA0129.jpg" alt="Foto di David Ruffini">
   </div>
 </section>
 

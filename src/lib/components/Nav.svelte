@@ -31,15 +31,15 @@
   <!-- 🔸 Centro: Data Stories -->
   <div class="center-logo">
       <a href="#top">
-    <img src="/davidruffini.png" alt="David Ruffini">
+    <img src="/new-site/davidruffini.png" alt="David Ruffini">
   </a>
   </div>
 
   <!-- 🔸 Destra: link di navigazione -->
   <div class="links">
-    <a href="/#about" class="badge"><img src="/chisono.png" alt="Chi sono" /></a>
-    <a href="/#methods" class="badge"><img src="/cosa-faccio.png" alt="Cosa faccio" /></a>
-    <a href="/#contact" class="badge"><img src="/contatti.png" alt="Contatti" /></a>
+    <a href="/#about" class="badge"><img src="/new-site/chisono.png" alt="Chi sono" /></a>
+    <a href="/#methods" class="badge"><img src="/new-site/cosa-faccio.png" alt="Cosa faccio" /></a>
+    <a href="/#contact" class="badge"><img src="/new-site/contatti.png" alt="Contatti" /></a>
   </div>
 </nav>
 
