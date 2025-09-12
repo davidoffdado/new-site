@@ -1,5 +1,14 @@
 export const articles = [
   {
+    title: "Cambiamenti climatici e inquinamento minacciano le antiche paludi dell’Iraq",
+    dek: "Il loro cambiamento in 40 anni",
+    role: "Data Journalist",
+    year: 2025,
+    tags: ["Il Sole 24 Ore", "12.09.2025"],
+    url: "https://www.infodata.ilsole24ore.com/2025/09/12/cambiamenti-climatici-e-inquinamento-minacciano-le-antiche-paludi-delliraq/",
+    cover: "https://images.pexels.com/photos/11876369/pexels-photo-11876369.jpeg"
+  },
+  {
     title: "Gli attacchi israeliani sulla Striscia di Gaza",
     dek: "Le aree più colpite in quasi due anni di conflitto",
     role: "Data Journalist",
