@@ -144,7 +144,7 @@ Ti serve una mano per un progetto, un articolo o un’inchiesta che richiede ana
 Pensi che quel numero letto nei giornali nasconda altro o sia sbagliato? <br>
 Parliamone!
 </p>
-<p>  Scrivimi sulla mail <a href="mailto:davidruffini98@email.com">davidruffini98@email.com </a> o tramite i social presenti in fondo alla pagina. Ci sentiamo :) </p>
+<p>  Scrivimi sulla mail <a href="mailto:davidruffini98@gmail.com">davidruffini98@gmail.com </a> o tramite i social presenti in fondo alla pagina. Ci sentiamo :) </p>
 
 
 <div class="social-icons">
@@ -228,7 +228,7 @@ Parliamone!
 {/if}
 
 <footer class="container">
-  <p class="caption">© {new Date().getFullYear()} — Costruito con Svelte · Ispirato a The Pudding</p>
+  <p class="caption">© {new Date().getFullYear()} · Costruito con Svelte · Ispirato a The Pudding</p>
 </footer>
 
 <style>
@@ -252,7 +252,7 @@ Parliamone!
   gap: 2rem;
   align-items: center;
   margin-top: 2rem;
-  text-align: center;
+  text-align: left;
 }
 
 /* Foto di default su mobile */
