@@ -27,12 +27,17 @@
   <p class="badge">Portfolio</p>
   <h1 class="h0" style="margin: 0.2rem 0 1rem;">Raccontare una storia, partendo dai dati</h1>
   <p class="subtle" style="max-width: 100%;">
-    I numeri non sono noiosi e, anzi, ci aiutano a capire meglio la realtà che ci circonda; il nostro mondo, però, ha poche certezze e ciascun dato deve essere interpretato al meglio, non solo proiettato in un grafico. Fortunatamente, hanno inventato la Statistica.
+    I numeri non sono noiosi: ci aiutano a capire meglio la realtà che ci circonda; il nostro mondo, però, ha poche certezze e ciascun dato deve essere interpretato al meglio, non solo proiettato in un grafico. Fortunatamente, esiste la statistica.
   </p>
 
   <p class="subtle" style="max-width: 100%;">
-   La sezione relativa agli articoli contiene tutti i miei lavori pubblicati dalle testate giornalistiche, mentre i progetti si riferiscono a quelle attività che hanno richiesto (e richiedono) un maggiore impegno in termini di tempo e risorse dedicate. Infine, la mia opera più recente: una newsletter che parla di probabilità e incertezza, per cercare di mostrare le situazioni in cui i numeri sembrano volerci ingannare.
-  </p>
+   In questo sito ci sono tutte le mie attività legate al mondo del giornalismo e della comunicazione:   </p>
+   <ul class="subtle">
+   <li> La newsletter <a href=https://aalea.substack.com/> àlea, in cui scrivo di incertezza: se pensate che la probabilità appartenga solo ai dipartimenti di matematica e sia lontana dalla vita quotidiana, datele uno sguardo;</li>
+   <li> I progetti di data journalism, lavori “a lunga scadenza” pensati per rimanere fonti affidabili anche nel tempo; </li>
+   <li> Gli articoli di data journalism pubblicati sulle testate giornalistiche.</li>
+   </ul>
+
 
   <!-- Blocco dinamico 
   <p class="intro">Sono…</p>

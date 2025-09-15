@@ -50,29 +50,6 @@
 <Hero />
 
 {#if view === 'home'}
-  <main class="container" id="articles" style="padding:2rem 0">
-    <h2 class="h1" style="margin:0 0 1rem">Gli articoli</h2>
-    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem">
-      {#each articles.slice(0,3) as a}
-        <ProjectCard project={a} />
-      {/each}
-    </div>
-    <p style="margin-top:1rem">
-      <a class="button" href="#all-articles"> <b> Vedi tutti gli articoli → </b> </a>
-    </p>
-  </main>
-
-<main class="container" id="projects" style="padding:2rem 0">
-  <h2 class="h1" style="margin:0 0 1rem">I progetti</h2>
-  <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem">
-    {#each projects.slice(0,3) as p}
-      <ProjectCard project={p} />
-    {/each}
-  </div>
-  <p style="margin-top:1rem">
-    <a class="button" href="#all-projects"> <b> Vedi tutti i progetti → </b></a>
-  </p>
-</main>
 
 <main class="container" id="newsletter" style="padding:2rem 0">
   <h2 class="h1" style="margin:0 0 1rem">La newsletter</h2>
@@ -92,6 +69,34 @@
 	</a>
   </p>
 </main>
+
+<main class="container" id="projects" style="padding:2rem 0">
+  <h2 class="h1" style="margin:0 0 1rem">I progetti</h2>
+  <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem">
+    {#each projects.slice(0,3) as p}
+      <ProjectCard project={p} />
+    {/each}
+  </div>
+  <p style="margin-top:1rem">
+    <a class="button" href="#all-projects"> <b> Vedi tutti i progetti → </b></a>
+  </p>
+</main>
+
+  <main class="container" id="articles" style="padding:2rem 0">
+    <h2 class="h1" style="margin:0 0 1rem">Gli articoli</h2>
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem">
+      {#each articles.slice(0,3) as a}
+        <ProjectCard project={a} />
+      {/each}
+    </div>
+    <p style="margin-top:1rem">
+      <a class="button" href="#all-articles"> <b> Vedi tutti gli articoli → </b> </a>
+    </p>
+  </main>
+
+
+
+
 
 
 
@@ -208,7 +213,7 @@ Parliamone!
       {/each}
     </div>
     <p style="text-align:center;margin-top:2rem">
-      <a class="button" on:click={() => view = 'home'}>← Torna alla home</a>
+      <a class="button" href="www.davidruffini.com">← Torna alla home</a>
     </p>
   </section>
 {/if}
@@ -222,13 +227,13 @@ Parliamone!
       {/each}
     </div>
     <p style="text-align:center;margin-top:2rem">
-      <a class="button" on:click={() => view = 'home'}>← Torna alla home</a>
+      <a class="button" href="www.davidruffini.com">← Torna alla home</a>
     </p>
   </section>
 {/if}
 
 <footer class="container">
-  <p class="caption">© {new Date().getFullYear()} · Costruito con Svelte · Ispirato a The Pudding</p>
+  <p class="caption">© David Ruffini, {new Date().getFullYear()} · Costruito con Svelte · L'header è ispirato a quello di <a href="https://pudding.cool/"> The Pudding </a> </p>
 </footer>
 
 <style>
