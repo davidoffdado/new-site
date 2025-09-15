@@ -213,7 +213,7 @@ Parliamone!
       {/each}
     </div>
     <p style="text-align:center;margin-top:2rem">
-      <a class="button" href="www.davidruffini.com">← Torna alla home</a>
+      <a class="button" on:click={() => view = 'home'}>← Torna alla home</a>
     </p>
   </section>
 {/if}
@@ -227,7 +227,7 @@ Parliamone!
       {/each}
     </div>
     <p style="text-align:center;margin-top:2rem">
-      <a class="button" href="www.davidruffini.com">← Torna alla home</a>
+      <a class="button" on:click={() => view = 'home'}>← Torna alla home</a>
     </p>
   </section>
 {/if}
