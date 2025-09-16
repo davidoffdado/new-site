@@ -1,5 +1,14 @@
 export const articles = [
   {
+  title: "Colpire i soccorritori",
+  dek: "La strategia russa dei double tap in Ucraina",
+  role: "Data Journalist",
+  year: 2024,
+  tags: ["Il Sole 24 Ore", "16.09.2025"],
+  url: "https://www.infodata.ilsole24ore.com/2025/09/16/ucraina-la-strage-dei-soccorritori-come-la-tattica-russa-del-double-tap-semina-morte-e-terrore/",
+  cover: "https://images.pexels.com/photos/11477798/pexels-photo-11477798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
     title: "Cambiamenti climatici e inquinamento minacciano le antiche paludi dell’Iraq",
     dek: "Il loro cambiamento in 40 anni",
     role: "Data Journalist",
