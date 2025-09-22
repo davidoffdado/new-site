@@ -55,10 +55,15 @@
 
 /* 🔸 Sinistra */
 .left-text {
-	  justify-self: start;   /* allinea a sinistra */
+  justify-self: start;
   font-size: 1rem;
-  color: var(--ink);
-  white-space: normal;   /* consente il ritorno a capo */	
+  color: #000000;       
+  white-space: normal;
+  /* background-color: #1e1e1e;   sfondo scuro */
+  padding: 0.5rem 1rem;       /* spazio interno */
+  border-radius: 6px;         /* angoli arrotondati */
+  font-family: 'Fira Code', monospace; /* font tipo IDE */
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);	
 
 }
 
