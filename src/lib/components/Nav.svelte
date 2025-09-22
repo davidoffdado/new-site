@@ -115,6 +115,11 @@ strong {
     grid-column: 1 / -1;
     justify-self: center;
   }
+  .left-text {
+    justify-self: center;  /* centra orizzontalmente */
+    text-align: center;    /* allinea il testo al centro */
+    margin-top: 2rem;      /* sposta verso il basso */
+  }
 }
 
 .links img {
