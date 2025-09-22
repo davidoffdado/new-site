@@ -25,7 +25,7 @@
 
 <header class="container" id="top" style="padding: 4rem 0 2rem;">
   <p class="badge">Portfolio</p>
-  <h1 class="h0" style="margin: 0.2rem 0 1rem;">Raccontare una storia, partendo dai dati</h1>
+  <h1 class="h0 typing-cursor" style="margin: 0.2rem 0 1rem;">Raccontare una storia, partendo dai dati</h1>
   <p class="subtle" style="max-width: 100%;">
     I numeri non sono noiosi: ci aiutano a capire meglio la realtà che ci circonda; il nostro mondo, però, ha poche certezze e ciascun dato deve essere interpretato al meglio, non solo proiettato in un grafico. Fortunatamente, esiste la statistica.
   </p>

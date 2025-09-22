@@ -22,9 +22,15 @@ kbd{background:#111;color:#fff;border-radius:6px;padding:.1rem .35rem;font-size:
 }
 
 /* Tipografia display */
-.h0{font-family:var(--serif);font-size:clamp(36px,5vw,66px);line-height:1.05;letter-spacing:-.02em}
+/* 
+.h0{font-family:var(--serif);font-size:clamp(36px,5vw,66px);line-height:1.05;letter-spacing:-.02em} 
 .h1{font-family:var(--serif);font-weight:700;font-size:clamp(28px,4vw,44px);line-height:1.1}
 .h2{font-family:var(--serif);font-weight:700;font-size:clamp(22px,3vw,30px)}
+.subtle{color:var(--muted)} 
+*/
+.h0{font-size:clamp(36px,5vw,66px);line-height:1.05;letter-spacing:-.02em}
+.h1{font-weight:700;font-size:clamp(28px,4vw,44px);line-height:1.1}
+.h2{font-weight:700;font-size:clamp(22px,3vw,30px)}
 .subtle{color:var(--muted)}
 
 /* Scrollytelling layout */

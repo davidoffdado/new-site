@@ -1,3 +1,8 @@
+html, body {
+  font-family: 'Fira Code', monospace;
+}
+
+
 .dropcap:first-letter {
   float: left;
   font-family: var(--serif);
@@ -44,4 +49,12 @@
   transform: scale(1.2);
 }
 
+.typing-cursor::after {
+  content: '|';
+  margin-left: -4px;
+  animation: blink 1s step-start infinite;
+}
 
+@keyframes blink {
+  50% { opacity: 0; }
+}

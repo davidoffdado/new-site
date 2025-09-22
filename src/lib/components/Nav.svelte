@@ -63,7 +63,7 @@
   padding: 0.5rem 1rem;       /* spazio interno */
   border-radius: 6px;         /* angoli arrotondati */
   font-family: 'Fira Code', monospace; /* font tipo IDE */
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);	
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.5);	*/
 
 }
 
