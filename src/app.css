@@ -1,6 +1,6 @@
 @layer base { html { box-sizing: border-box; } *, *::before, *::after { box-sizing: inherit; } }
 :root{
-  --bg:#fffef9; --ink:#0f1720; --muted:#6b7280; --accent:#ff7a59; --accent-2:#1c7ed6; --line:#e5e7eb;
+  --bg:#fffef9; --ink:#0f1720; --muted:#6b7280; --accent:#000000; --accent-2:#1c7ed6; --line:#e5e7eb;
   --radius:20px; --shadow:0 10px 30px rgba(0,0,0,.06);
   --serif:'Source Serif 4', ui-serif, Georgia, serif; --sans: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
 }

@@ -1,7 +1,16 @@
 export const articles = [
   {
-  title: "Colpire i soccorritori",
-  dek: "La strategia russa dei double tap in Ucraina",
+  title: "La strategia israealiana dei double tap nella Striscia di Gaza",
+  dek: "La mappa degli attacchi che hanno colpito i soccorritori",
+  role: "Data Journalist",
+  year: 2024,
+  tags: ["Wired", "20.09.2025"],
+  url: "https://www.wired.it/article/attacchi-double-tap-striscia-di-gaza-mappa/",
+  cover: "https://images.pexels.com/photos/128421/pexels-photo-128421.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+  title: "La strategia russa dei double tap in Ucraina",
+  dek: "La mappa degli attacchi che hanno colpito i soccorritori",
   role: "Data Journalist",
   year: 2024,
   tags: ["Il Sole 24 Ore", "16.09.2025"],
