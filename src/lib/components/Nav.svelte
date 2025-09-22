@@ -3,9 +3,9 @@
 
   // Frasi che cambiano
   const rotating = [
-    'uno statistico',
-    'un data journalist',
-    'uno studioso dell\'incertezza'
+    '> uno statistico',
+    '> un data journalist',
+    '> uno studioso dell\'incertezza'
   ];
 
   let index = 0;
@@ -25,7 +25,7 @@
 <nav class="container nav-bar" aria-label="Primary">
   <!-- 🔸 Sinistra: frasi che cambiano -->
   <div class="left-text">
-    Sono… <br> <strong>{rotating[index]}</strong>
+    > sono… <br> <strong>{rotating[index]}</strong>
   </div>
 
   <!-- 🔸 Centro: Data Stories -->
@@ -67,13 +67,26 @@
 
 }
 
+.left-text::after {
+  content: '|';
+  margin-left: -4px;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
 /* 🔸 Centro */
 .center-logo {
   justify-self: center;  /* mantiene il logo centrato */
   font-size: 1.4rem;
   font-weight: bold;
   color: var(--ink);
+  border-radius: 6px;         /* angoli arrotondati */	
+
 }
+
 
 /* 🔸 Destra */
 .links {
