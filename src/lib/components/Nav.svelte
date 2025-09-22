@@ -69,7 +69,7 @@
 
 .left-text::after {
   content: '|';
-  margin-left: -4px;
+  margin-left: 0px;
   animation: blink 1s step-start infinite;
 }
 
