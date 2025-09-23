@@ -5,6 +5,7 @@
   const rotating = [
     '> uno statistico',
     '> un data journalist',
+    '> un data analyst',
     /*'> uno studioso dell\'incertezza'*/
   ];
 
