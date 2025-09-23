@@ -94,4 +94,5 @@
   font-size: 0.75rem;
   border-radius: 4px;
 }
+
 </style>

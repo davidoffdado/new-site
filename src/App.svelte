@@ -243,7 +243,7 @@ Parliamone!
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1rem;
-}
+} 
 
 @media (max-width: 480px) {
   .grid {
