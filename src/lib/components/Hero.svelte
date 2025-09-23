@@ -33,9 +33,9 @@
   <p class="subtle" style="max-width: 100%;">
    In questo sito ci sono tutte le mie attività legate al mondo del giornalismo e della comunicazione:   </p>
    <ul class="subtle">
-   <li> La newsletter <a href=https://aalea.substack.com/> àlea, in cui scrivo di incertezza: se pensate che la probabilità appartenga solo ai dipartimenti di matematica e sia lontana dalla vita quotidiana, datele uno sguardo;</li>
-   <li> I progetti di data journalism, lavori “a lunga scadenza” pensati per rimanere fonti affidabili anche nel tempo; </li>
-   <li> Gli articoli di data journalism pubblicati sulle testate giornalistiche.</li>
+   <li> La newsletter <b> àlea </b>, in cui scrivo di incertezza: se pensate che la probabilità appartenga solo ai dipartimenti di matematica e sia lontana dalla vita quotidiana, datele uno sguardo;</li>
+   <li> I <b> progetti </b> di data journalism, lavori “a lunga scadenza” pensati per rimanere fonti affidabili anche nel tempo; </li>
+   <li> Gli <b> articoli </b> di data journalism pubblicati sulle testate giornalistiche.</li>
    </ul>
 
 
@@ -44,9 +44,9 @@
   <p class="rotating"><strong>{rotating[index]}</strong></p> -->
 
   <div style="margin-top: 1.25rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-    <a class="button" href="#articles"> <b> Leggi i miei articoli </b> </a>
-    <a class="button" href="#projects"> <b> Guarda i miei progetti </b> </a>
     <a class="button" href="#newsletter"> <b> Sfoglia la mia newsletter </b> </a>
+    <a class="button" href="#projects"> <b> Guarda i miei progetti </b> </a>
+    <a class="button" href="#articles"> <b> Leggi i miei articoli </b> </a>
   </div>
 </header>
 
