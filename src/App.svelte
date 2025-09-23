@@ -9,6 +9,7 @@
   import { articles } from './data/articles.js';
   import { projects } from './data/projects.js';
   import { newsletter } from './data/newsletter.js';
+  import Typewriter from './lib/components/Typewriter.svelte';
 
 
     import { onMount } from 'svelte';
@@ -103,18 +104,14 @@
 <section class="container about-section" id="about">
   <div class="about-text">
     <h2 class="h1">Chi sono</h2>
+  <b>nome:</b> <Typewriter text="david" speed={250}/> <br>
+  <b>cognome:</b> <Typewriter text="ruffini" speed={250} /> <br>
+  <b>data di nascita:</b> <Typewriter text="22 settembre 1998" speed={150} /> <br>
+  <b>luogo di nascita:</b> <Typewriter text="macerata" speed={150} /> <br>
+  <b>laurea:</b> <Typewriter text="statistica e data science" speed={150} /> <br>
+  <b>interessi:</b> <Typewriter text="libri, cinema, cucina, ..." speed={150} /><br>
+  <b>lavoro:</b> <Typewriter text="data analyst, data journalist" speed={150} /><br>
     <p>
-      Ciao :) <br>
-	Sono David Ruffini, un classe 1998 di Macerata interessato al giornalismo, ai dati e alla probabilità. </p>
-
-<p> Sono laureato in Scienze Statistiche e lavoro con i dati, ma soprattutto cerco di dare loro un senso, in modo da capire meglio ciò che ci circonda. Per altri dettagli su ciò che ho studiato e sulle mie esperienze lavorative vi rimando a <a href="https://www.linkedin.com/in/david-ruffini-56a5a1161/"> LinkedIn</a>.
-</p> 
-
-<p> 
-L’incertezza mi ha sempre incuriosito. Entrambe le mie tesi hanno avuto a che fare con la probabilità e con i comportamenti delle persone, ma il caso è sempre stato qualcosa che mi ha dato molto da pensare (o forse sto semplicemente razionalizzando ex-post).
-</p>
-
-<p> Fortunatamente, siamo altro oltre il lavoro. Qualche parola a caso per dire altro su di me: libri, film, allenamento, cucina e tante altre. </p>
   </div>
 
   <div class="about-photo">
@@ -135,7 +132,9 @@ L’incertezza mi ha sempre incuriosito. Entrambe le mie tesi hanno avuto a che 
 <p>
 Nel frattempo, lavoro come data analyst in una società di consulenza.
 </p>
-      
+
+<b>keywords:</b> <Typewriter text="data journalism, data visualization, data analysis, probabilità, sviluppo web" speed={100} /><br>
+<b>tecnologie:</b> <Typewriter text="R, Python, Flourish, Datawrapper, HTML, CSS, JavaScript, Svelte, SQL" speed={100} /><br>
     </div>
   </section>
 
