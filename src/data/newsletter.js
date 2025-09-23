@@ -1,5 +1,14 @@
 export const newsletter = [
 {
+title: 'Le assunzioni della Statistica classica non reggono gli eventi estremi',
+dek: '',
+role: '',
+year: 2025,
+tags: ['Newsletter', '11.09.2025'],
+url: 'https://aalea.substack.com/p/gli-eventi-estremi',
+cover: 'https://substackcdn.com/image/fetch/$s_!wikQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa3218f38-ab87-42e3-aa02-b70f3bea2ba9_1536x1024.png'
+},
+{
 title: 'Il bias della retrospettiva o del perchè riteniamo il passato più semplice di com\'era',
 dek: '',
 role: '',

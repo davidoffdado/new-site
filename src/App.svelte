@@ -65,7 +65,7 @@
     	target="_blank"
     	rel="noopener"
   	> 
-	<b> Vai alla mia newsletter → </b> 
+	<b> Vai alla newsletter → </b> 
 	</a>
   </p>
 </main>
@@ -104,7 +104,7 @@
   <div class="about-text">
     <h2 class="h1">Chi sono</h2>
     <p>
-      Ciao, chi sono? :) <br>
+      Ciao :) <br>
 	Sono David Ruffini, un classe 1998 di Macerata interessato al giornalismo, ai dati e alla probabilità. </p>
 
 <p> Sono laureato in Scienze Statistiche e lavoro con i dati, ma soprattutto cerco di dare loro un senso, in modo da capire meglio ciò che ci circonda. Per altri dettagli su ciò che ho studiato e sulle mie esperienze lavorative vi rimando a <a href="https://www.linkedin.com/in/david-ruffini-56a5a1161/"> LinkedIn</a>.
@@ -233,7 +233,7 @@ Parliamone!
 {/if}
 
 <footer class="container">
-  <p class="caption">© David Ruffini, {new Date().getFullYear()} · Costruito con Svelte · L'header è ispirato a quello di <a href="https://pudding.cool/"> The Pudding </a> </p>
+  <p class="caption">© David Ruffini, {new Date().getFullYear()} · Realizzato con Svelte · L'header è ispirato a quello di <a href="https://pudding.cool/"> The Pudding </a> </p>
 </footer>
 
 <style>
