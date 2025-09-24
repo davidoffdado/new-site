@@ -109,7 +109,7 @@
   <b>data di nascita:</b> <Typewriter text="22 settembre 1998" speed={150} /> <br>
   <b>luogo di nascita:</b> <Typewriter text="macerata" speed={150} /> <br>
   <b>laurea:</b> <Typewriter text="statistica e data science" speed={150} /> <br>
-  <b>interessi:</b> <Typewriter text="libri, cinema, cucina, ..." speed={150} /><br>
+  <!-- <b>interessi:</b> <Typewriter text="libri, cinema, cucina, ..." speed={150} /><br> -->
   <b>lavoro:</b> <Typewriter text="data analyst, data journalist" speed={150} /><br>
     <p>
   </div>
@@ -124,17 +124,13 @@
   <section class="container" id="methods" style="margin-top:2rem">
     <h2 class="h1">Cosa faccio</h2>
     <div class="about-text">
-<p> Provo a fare il data journalist. </p>
-      <p> Durante i miei studi universitari mi sono avvicinato al mondo della probabilità e del data journalism, convinto che nell’informazione di oggi ci sia spazio (e sia esso necessario) per una comunicazione basata sui dati e sulla cultura dell’incertezza. Ho quindi iniziato a coltivare un portfolio di analisi e a collaborare con Il Sole 24 Ore, contribuendo al blog <a href="https://www.infodata.ilsole24ore.com/"> Info Data</a>. Successivamente, ho lanciato una newsletter: si chiama <a href="https://aalea.substack.com/"> àlea </a> e parla di probabilità. </p>
+<p> Lavorativamente parlando, due cose: il data analyst in una società di consulenza e il data journalist, da freelance. Parallelamente, scrivo di probabilità su <a href="https://aalea.substack.com/"> àlea </a> e mi sporco le mani con lo sviluppo web. </p>
 
-<p> Finora mi sono occupato di argomenti trasversali tra di loro, ma spesso mi ritrovo a scrivere di conflitti o di temi legati all'incertezza. Qualche tempo fa ho realizzato uno <a href="https://www.davidruffini.com/stato-delle-carceri"> scraper </a> che aggiorna quotidianamente, in maniera automatica, i dati relativi all’affollamento carcerario in Italia; il progetto è stato selezionato dal <a href="https://gijn.org/stories/europes-deadly-heatwave-middle-east-ceasefires/"> Global Investigative Journalism Network </a> tra i migliori dieci lavori di data journalism realizzati nelle prime settimane di luglio 2025. </p>
-
-<p>
-Nel frattempo, lavoro come data analyst in una società di consulenza.
-</p>
+<p> Il mio <a href="https://www.davidruffini.com/stato-delle-carceri"> scraper </a> che aggiorna quotidianamente, in maniera automatica, i dati relativi all’affollamento carcerario in Italia, è stato selezionato dal <a href="https://gijn.org/stories/europes-deadly-heatwave-middle-east-ceasefires/"> Global Investigative Journalism Network </a> tra i migliori dieci lavori di data journalism realizzati nelle prime settimane di luglio 2025. </p>
 
 <b>keywords:</b> <Typewriter text="data journalism, data visualization, data analysis, probabilità, sviluppo web" speed={100} /><br>
 <b>tecnologie:</b> <Typewriter text="R, Python, Flourish, Datawrapper, HTML, CSS, JavaScript, Svelte, SQL" speed={100} /><br>
+<b>collaborazioni:</b> <Typewriter text="Il Sole 24 Ore, Wired, Aliseo Editoriale, SEC Newgate" speed={100} /><br>
     </div>
   </section>
 
