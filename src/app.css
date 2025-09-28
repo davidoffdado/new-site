@@ -6,7 +6,7 @@
 }
 html,body,#app{height:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.6}
-a{color:var(--accent-2);text-decoration:none}a:hover{text-decoration:underline}
+
 img{max-width:100%;height:auto}
 .container{width:min(1100px,90vw);margin-inline:auto}
 .grid{display:grid;gap:1.25rem}
@@ -32,6 +32,7 @@ kbd{background:#111;color:#fff;border-radius:6px;padding:.1rem .35rem;font-size:
 .h1{font-weight:700;font-size:clamp(28px,4vw,44px);line-height:1.1}
 .h2{font-weight:700;font-size:clamp(22px,3vw,30px)}
 .subtle{color:var(--muted)}
+
 
 /* Scrollytelling layout */
 .scrolly{display:grid;grid-template-columns:1fr min(520px,42vw);gap:2rem;align-items:start}

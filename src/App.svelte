@@ -232,6 +232,19 @@ Parliamone!
 </footer>
 
 <style>
+a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: black;
+  color: black;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
   #articles .grid, #projects .grid {grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
 
 .grid {

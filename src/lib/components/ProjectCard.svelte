@@ -2,8 +2,8 @@
   export let project;
 </script>
 
-<a class="card" href={project.url} target="_blank" rel="noopener">
-  <!-- Immagine in alto -->
+<a class="card {project.cover ? '' : 'no-cover'}" href={project.url} target="_blank" rel="noopener">
+  <!-- Immagine solo se c'è -->
   {#if project.cover}
     <div class="image-container">
       <img src={project.cover} alt={project.title} />
@@ -48,7 +48,7 @@
 
 .image-container {
   width: 100%;
-  aspect-ratio: 16/9;       /* Mantiene proporzioni coerenti */
+  aspect-ratio: 16/9;
   overflow: hidden;
   background: #eee;
 }
@@ -95,4 +95,14 @@
   border-radius: 4px;
 }
 
+/* 🔹 Stile speciale per card senza immagine */
+.card.no-cover {
+  padding: 1rem;
+  align-items: flex-start;
+}
+
+.card.no-cover .content {
+  padding: 0;  /* niente extra padding */
+}
 </style>
+
