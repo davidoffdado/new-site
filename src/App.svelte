@@ -128,8 +128,8 @@
 
 <p> Il mio <a href="https://www.davidruffini.com/stato-delle-carceri"> scraper </a> che aggiorna quotidianamente, in maniera automatica, i dati relativi all’affollamento carcerario in Italia, è stato selezionato dal <a href="https://gijn.org/stories/europes-deadly-heatwave-middle-east-ceasefires/"> Global Investigative Journalism Network </a> tra i migliori dieci lavori di data journalism realizzati nelle prime settimane di luglio 2025. </p>
 
-<b>keywords:</b> <Typewriter text="data journalism, data visualization, data analysis, probabilità, sviluppo web" speed={100} /><br>
-<b>tecnologie:</b> <Typewriter text="R, Python, Flourish, Datawrapper, HTML, CSS, JavaScript, Svelte, SQL" speed={100} /><br>
+<b>keywords:</b> <Typewriter text="data journalism, data visualization, data analysis, probabilità, web scraping, sviluppo web" speed={100} /><br>
+<b>tecnologie:</b> <Typewriter text="R, Python, Flourish, Datawrapper, HTML, CSS, JavaScript, Svelte, SQL, D3" speed={100} /><br>
 <b>collaborazioni:</b> <Typewriter text="Il Sole 24 Ore, Wired, Aliseo Editoriale, SEC Newgate" speed={100} /><br>
     </div>
   </section>
@@ -140,11 +140,11 @@
     <div class="about-text">
 <p> Lavoro su tutto ciò che può essere rappresentato in una dimensione numerica o che può essere visto sotto la lente dell'incertezza. </p>
 <p>
-Ti serve una mano per un progetto, un articolo o un’inchiesta che richiede analisi e visualizzazioni? <br>
-Pensi che quel numero letto nei giornali nasconda altro o sia sbagliato? <br>
+Ti serve una mano per un progetto, un articolo o un’inchiesta che richiede analisi o visualizzazioni? <br>
+Pensi che quel numero letto nei giornali nasconda altro o sia sbagliato? <br> 
 Parliamone!
 </p>
-<p>  Scrivimi sulla mail <a href="mailto:davidruffini98@gmail.com">davidruffini98@gmail.com </a> o tramite i social presenti in fondo alla pagina. Ci sentiamo :) </p>
+<p>  Scrivi alla mia mail <a href="mailto:davidruffini98@gmail.com">davidruffini98@gmail.com </a> o tramite i social presenti in fondo alla pagina. Ci sentiamo :) </p>
 
 
 <div class="social-icons">

@@ -33,7 +33,7 @@
   <p class="subtle" style="max-width: 100%;">
    In questo sito ci sono tutte le mie attività legate al mondo del giornalismo e della comunicazione:   </p>
    <ul class="subtle">
-   <li> La newsletter <b> àlea </b>, in cui scrivo di incertezza: se pensate che la probabilità appartenga solo ai dipartimenti di matematica e sia lontana dalla vita quotidiana, datele uno sguardo;</li>
+   <li> La newsletter <b><a href="https://aalea.substack.com/"> àlea</a></b>, in cui scrivo di incertezza: se pensate che la probabilità appartenga solo ai dipartimenti di matematica e sia lontana dalla vita quotidiana, datele uno sguardo;</li>
    <li> I <b> progetti </b> di data journalism, lavori “a lunga scadenza” pensati per rimanere fonti affidabili anche nel tempo; </li>
    <li> Gli <b> articoli </b> di data journalism pubblicati sulle testate giornalistiche.</li>
    </ul>
@@ -51,6 +51,19 @@
 </header>
 
 <style>
+a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: black;
+  color: black;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
 .intro {
   font-size: 1.8rem;
   color: var(--ink);
