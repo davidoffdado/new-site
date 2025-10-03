@@ -23,7 +23,7 @@ dek: 'I paesi che hanno arrestato o ucciso giornalisti',
 role: '',
 year: 2025,
 tags: [],
-url: 'https://davidruffini.shinyapps.io/ImprisonedJournalistsTracker/',
+url: 'https://davidoffdado.github.io/giornalisti-app/',
 cover: 'https://images.pexels.com/photos/1752724/pexels-photo-1752724.jpeg'
 },
 {

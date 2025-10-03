@@ -1,21 +1,30 @@
 export const newsletter = [
 {
+title: 'Gli esseri umani non sono molto bravi a intepretare le probabilità degli eventi',
+dek: 'Immaginate una ragazza di nome Linda. Ha 31 anni, un carattere molto schietto e determinato, è brillante negli studi e nella vita. È single, laureata in filosofia e ha vissuto...',
+role: '',
+year: 2025,
+tags: ['Newsletter', '02.10.2025'],
+url: 'https://aalea.substack.com/p/probabilmente-sbaglierete-la-risposta',
+cover: ''
+},
+{
 title: 'Una condanna per omicidio motivata da un calcolo sbagliato',
-dek: '',
+dek: 'Due eventi si dicono stocasticamente indipendenti se il verificarsi (o meno) dell’uno non influenza l’altro. Formalmente, possiamo dire che due eventi sono indipendenti se...',
 role: '',
 year: 2025,
 tags: ['Newsletter', '25.09.2025'],
 url: 'https://aalea.substack.com/p/lindipendenza-tra-eventi',
-cover: 'https://substackcdn.com/image/fetch/$s_!jlF7!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d55bd90-141b-4f59-b21a-2b41460f1951_1536x1024.png'
+cover: ''
 },
 {
 title: 'Le assunzioni della Statistica classica non reggono gli eventi estremi',
-dek: '',
+dek: 'Immagina due persone della stessa età, di cui non conosci l’altezza. Se ti dicessi che la somma della loro altezza è 4 metri e ti chiedessi quali sono le rispettive altezze, cosa mi risponderesti?',
 role: '',
 year: 2025,
 tags: ['Newsletter', '18.09.2025'],
 url: 'https://aalea.substack.com/p/gli-eventi-estremi',
-cover: 'https://substackcdn.com/image/fetch/$s_!wikQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa3218f38-ab87-42e3-aa02-b70f3bea2ba9_1536x1024.png'
+cover: ''
 },
 {
 title: 'Il bias della retrospettiva o del perchè riteniamo il passato più semplice di com\'era',
