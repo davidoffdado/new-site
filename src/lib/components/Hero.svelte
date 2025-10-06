@@ -23,12 +23,9 @@
   });
 </script>
 
-<header class="container" id="top" style="padding: 4rem 0 2rem;">
+<header class="container" id="top">
   <p class="badge">Portfolio</p>
   <h1 class="h0 typing-cursor" style="margin: 0.2rem 0 1rem;">Raccontare una storia, partendo dai dati</h1>
-  <p class="subtle" style="max-width: 100%;">
-    I numeri non sono noiosi: ci aiutano a capire meglio la realtà che ci circonda; il nostro mondo, però, ha poche certezze e ciascun dato deve essere interpretato al meglio, non solo proiettato in un grafico. Fortunatamente, esiste la statistica.
-  </p>
 
   <p class="subtle" style="max-width: 100%;">
    In questo sito ci sono tutte le mie attività legate al mondo del giornalismo e della comunicazione:   </p>
@@ -43,11 +40,12 @@
   <p class="intro">Sono…</p>
   <p class="rotating"><strong>{rotating[index]}</strong></p> -->
 
+<!-- Pulsanti sezioni
   <div style="margin-top: 1.25rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
     <a class="button" href="#newsletter"> <b> Sfoglia la mia newsletter </b> </a>
     <a class="button" href="#projects"> <b> Guarda i miei progetti </b> </a>
     <a class="button" href="#articles"> <b> Leggi i miei articoli </b> </a>
-  </div>
+  </div> -->
 </header>
 
 <style>
@@ -81,7 +79,7 @@ a:hover {
 
 .hero {
   text-align: center;
-  padding: 4rem 1rem 2rem;
+  padding: 2rem 1rem 2rem;
 }
 
 .button {

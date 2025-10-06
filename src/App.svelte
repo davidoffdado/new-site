@@ -52,177 +52,178 @@
 
 {#if view === 'home'}
 
-<main class="container" id="newsletter" style="padding:2rem 0">
-  <h2 class="h1" style="margin:0 0 1rem">La newsletter</h2>
-  <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem">
-    {#each newsletter.slice(0,3) as p}
-      <ProjectCard project={p} />
-    {/each}
+<section class="container" id="intro-links" style="margin-top:2rem">
+  <h2 class="h1" style="margin-bottom:1.5rem">Scopri di più</h2>
+  <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem">
+    <a
+      class="button"
+      href="https://aalea.substack.com/"
+      target="_blank"
+      rel="noopener"
+    >
+      <b> Vai alla newsletter → </b>
+    </a>
+
+    <a class="button" href="#all-projects">
+      <b> Vedi tutti i progetti → </b>
+    </a>
+
+    <a class="button" href="#all-articles">
+      <b> Vedi tutti gli articoli → </b>
+    </a>
   </div>
-  <p style="margin-top:1rem">
-      <a
-    	class="button"
-    	href="https://aalea.substack.com/"  
-    	target="_blank"
-    	rel="noopener"
-  	> 
-	<b> Vai alla newsletter → </b> 
-	</a>
-  </p>
-</main>
-
-<main class="container" id="projects" style="padding:2rem 0">
-  <h2 class="h1" style="margin:0 0 1rem">I progetti</h2>
-  <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem">
-    {#each projects.slice(0,3) as p}
-      <ProjectCard project={p} />
-    {/each}
-  </div>
-  <p style="margin-top:1rem">
-    <a class="button" href="#all-projects"> <b> Vedi tutti i progetti → </b></a>
-  </p>
-</main>
-
-  <main class="container" id="articles" style="padding:2rem 0">
-    <h2 class="h1" style="margin:0 0 1rem">Gli articoli</h2>
-    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem">
-      {#each articles.slice(0,3) as a}
-        <ProjectCard project={a} />
-      {/each}
-    </div>
-    <p style="margin-top:1rem">
-      <a class="button" href="#all-articles"> <b> Vedi tutti gli articoli → </b> </a>
-    </p>
-  </main>
-
-
-
-
-
-
+</section>
 
 <section class="container about-section" id="about">
   <div class="about-text">
     <h2 class="h1">Chi sono</h2>
-  <b>nome:</b> <Typewriter text="david" speed={250}/> <br>
-  <b>cognome:</b> <Typewriter text="ruffini" speed={250} /> <br>
-  <b>data di nascita:</b> <Typewriter text="22 settembre 1998" speed={150} /> <br>
-  <b>luogo di nascita:</b> <Typewriter text="macerata" speed={150} /> <br>
-  <b>laurea:</b> <Typewriter text="statistica e data science" speed={150} /> <br>
-  <!-- <b>interessi:</b> <Typewriter text="libri, cinema, cucina, ..." speed={150} /><br> -->
-  <b>lavoro:</b> <Typewriter text="data analyst, data journalist" speed={150} /><br>
-    <p>
+    <b>nome:</b> <Typewriter text="david" speed={250}/> <br>
+    <b>cognome:</b> <Typewriter text="ruffini" speed={250} /> <br>
+    <b>data di nascita:</b> <Typewriter text="22 settembre 1998" speed={150} /> <br>
+    <b>luogo di nascita:</b> <Typewriter text="macerata" speed={150} /> <br>
+    <b>laurea:</b> <Typewriter text="statistica e data science" speed={150} /> <br>
+    <b>lavoro:</b> <Typewriter text="data analyst, data journalist" speed={150} /><br>
   </div>
+  
+
 
   <div class="about-photo">
-    <img src="./IMG-20250309-WA0129.jpg" alt="Foto di David Ruffini">
+    <img src="./new.jpg" alt="Foto di David Ruffini">
   </div>
 </section>
 
+<section class="container" id="methods" style="margin-top:2rem">
+  <h2 class="h1">Cosa faccio</h2>
+  <div class="about-text">
+    <p>
+      Lavorativamente parlando, due cose: il data analyst in una società di consulenza e il data journalist, da freelance. Parallelamente, scrivo di probabilità su <a href="https://aalea.substack.com/"> àlea </a> e mi sporco le mani con lo sviluppo web.
+    </p>
 
-
-  <section class="container" id="methods" style="margin-top:2rem">
-    <h2 class="h1">Cosa faccio</h2>
-    <div class="about-text">
-<p> Lavorativamente parlando, due cose: il data analyst in una società di consulenza e il data journalist, da freelance. Parallelamente, scrivo di probabilità su <a href="https://aalea.substack.com/"> àlea </a> e mi sporco le mani con lo sviluppo web. </p>
-
-<p> Il mio <a href="https://www.davidruffini.com/stato-delle-carceri"> scraper </a> che aggiorna quotidianamente, in maniera automatica, i dati relativi all’affollamento carcerario in Italia, è stato selezionato dal <a href="https://gijn.org/stories/europes-deadly-heatwave-middle-east-ceasefires/"> Global Investigative Journalism Network </a> tra i migliori dieci lavori di data journalism realizzati nelle prime settimane di luglio 2025. </p>
-
-<b>keywords:</b> <Typewriter text="data journalism, data visualization, data analysis, probabilità, web scraping, sviluppo web" speed={100} /><br>
-<b>tecnologie:</b> <Typewriter text="R, Python, Flourish, Datawrapper, HTML, CSS, JavaScript, Svelte, SQL, D3" speed={100} /><br>
-<b>collaborazioni:</b> <Typewriter text="Il Sole 24 Ore, Wired, Aliseo Editoriale, SEC Newgate" speed={100} /><br>
-    </div>
-  </section>
-
-
-  <section class="container" id="contact" style="margin-top:2rem">
-    <h2 class="h1">Contatti</h2>
-    <div class="about-text">
-<p> Lavoro su tutto ciò che può essere rappresentato in una dimensione numerica o che può essere visto sotto la lente dell'incertezza. </p>
-<p>
-Ti serve una mano per un progetto, un articolo o un’inchiesta che richiede analisi o visualizzazioni? <br>
-Pensi che quel numero letto nei giornali nasconda altro o sia sbagliato? <br> 
-Parliamone!
+    <p>
+      Il mio <a href="https://www.davidruffini.com/stato-delle-carceri"> scraper </a> che aggiorna quotidianamente, in maniera automatica, i dati relativi all’affollamento carcerario in Italia, è stato selezionato dal <a href="https://gijn.org/stories/europes-deadly-heatwave-middle-east-ceasefires/"> Global Investigative Journalism Network </a> tra i migliori dieci lavori di data journalism realizzati nelle prime settimane di luglio 2025.
+    </p>
+<p> 
+Se vuoi vedere il mio curriculum, puoi farlo <a href="https://drive.google.com/file/d/1vNtAIv2O_r0Xsiw0KSw2aWvwWDvdc7AP/view?usp=sharing" target="_blank"> qua</a>.
 </p>
-<p>  Scrivi alla mia mail <a href="mailto:davidruffini98@gmail.com">davidruffini98@gmail.com </a> o tramite i social presenti in fondo alla pagina. Ci sentiamo :) </p>
 
+    <b>keywords:</b> <Typewriter text="data journalism, data visualization, data analysis, probabilità, web scraping, sviluppo web" speed={100} /><br>
+    <b>tecnologie:</b> <Typewriter text="R, Python, Flourish, Datawrapper, HTML, CSS, JavaScript, Svelte, SQL, D3" speed={100} /><br>
+    <b>collaborazioni:</b> <Typewriter text="Il Sole 24 Ore, Wired, Aliseo Editoriale, SEC Newgate" speed={100} /><br>
+  </div>
+</section>
 
-<div class="social-icons">
-  <ul>
+<section class="container" id="contact" style="margin-top:2rem">
+  <h2 class="h1">Contatti</h2>
+  <div class="about-text">
+    <p>
+      Ti serve una mano per un progetto, un articolo o un’inchiesta che richieda analisi o visualizzazioni? <br>
+      Pensi che quel numero letto nei giornali nasconda altro o sia sbagliato? <br>
+    </p>
+    <p>
+      Se vuoi contattarmi, scrivimi alla mail <a href="mailto:davidruffini98@gmail.com">davidruffini98@gmail.com </a> o tramite i social presenti in fondo alla pagina. Ci sentiamo :)
+    </p>
 
-	    <!-- Email -->
-    <li>
-      <a href="mailto:davidruffini98@email.com">
-        <i class="fa fa-envelope fa-2x"></i>
-      </a>
-    </li>
+    <div class="social-icons">
+      <ul>
+        <li>
+          <a href="mailto:davidruffini98@email.com">
+            <i class="fa fa-envelope fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/david_ruffini/" target="_blank" rel="noopener">
+            <i class="fa fa-instagram fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/david-ruffini-56a5a1161/" target="_blank" rel="noopener">
+            <i class="fa fa-linkedin fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://substack.com/@davidruffini1" target="_blank" rel="noopener">
+            <i class="fa fa-rss fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/davidruffini_" target="_blank" rel="noopener">
+            <i class="fa fa-twitter fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/davidoffdado" target="_blank" rel="noopener">
+            <i class="fa fa-github fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-    <!-- Instagram -->
-    <li>
-      <a href="https://www.instagram.com/david_ruffini/" target="_blank" rel="noopener">
-        <i class="fa fa-instagram fa-2x"></i>
-      </a>
-    </li>
-
-    <!-- LinkedIn -->
-    <li>
-      <a href="https://www.linkedin.com/in/david-ruffini-56a5a1161/" target="_blank" rel="noopener">
-        <i class="fa fa-linkedin fa-2x"></i>
-      </a>
-    </li>
-
-    <!-- Substack -->
-    <li>
-      <a href="https://substack.com/@davidruffini1" target="_blank" rel="noopener">
-        <i class="fa fa-rss fa-2x"></i>
-      </a>
-    </li>
-
-	    <!-- Twitter -->
-    <li>
-      <a href="https://twitter.com/davidruffini_" target="_blank" rel="noopener">
-        <i class="fa fa-twitter fa-2x"></i>
-      </a>
-    </li>
-
-	    <!-- GitHub -->
-    <li>
-      <a href="https://github.com/davidoffdado" target="_blank" rel="noopener">
-        <i class="fa fa-github fa-2x"></i>
-      </a>
-    </li>
-	
-  </ul>
-</div>
- </div>
-
-  </section>
 {/if}
 
 {#if view === 'all-articles'}
   <section class="container" style="padding:2rem 0">
+<p style="text-align:center;margin-top:2rem">
+<a 
+  class="button" 
+  on:click={() => {
+    view = 'home';
+    location.hash = '';   // reset dell’URL
+  }}
+>
+  ← Torna alla home
+</a>
+    </p>
     <h1 class="h1">Tutti gli articoli</h1>
     <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem">
       {#each articles as a}
         <ProjectCard project={a} />
       {/each}
     </div>
-    <p style="text-align:center;margin-top:2rem">
-      <a class="button" on:click={() => view = 'home'}>← Torna alla home</a>
+<p style="text-align:center;margin-top:2rem">
+<a 
+  class="button" 
+  on:click={() => {
+    view = 'home';
+    location.hash = '';   // reset dell’URL
+  }}
+>
+  ← Torna alla home
+</a>
     </p>
   </section>
 {/if}
 
 {#if view === 'all-projects'}
   <section class="container" style="padding:2rem 0">
+<p style="text-align:center;margin-top:2rem">
+<a 
+  class="button" 
+  on:click={() => {
+    view = 'home';
+    location.hash = '';   // reset dell’URL
+  }}
+>
+  ← Torna alla home
+</a>
+    </p>
     <h1 class="h1">Tutti i progetti</h1>
     <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem">
       {#each projects as p}
         <ProjectCard project={p} />
       {/each}
     </div>
-    <p style="text-align:center;margin-top:2rem">
-      <a class="button" on:click={() => view = 'home'}>← Torna alla home</a>
+<p style="text-align:center;margin-top:2rem">
+<a 
+  class="button" 
+  on:click={() => {
+    view = 'home';
+    location.hash = '';   // reset dell’URL
+  }}
+>
+  ← Torna alla home
+</a>
     </p>
   </section>
 {/if}
@@ -263,7 +264,7 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr;     /* Mobile: una colonna */
   gap: 2rem;
-  align-items: center;
+  align-items: start;
   margin-top: 2rem;
   text-align: left;
 }
@@ -274,6 +275,7 @@ a:hover {
   max-width: 300px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-top: 4rem;  /* regola tu: 0.5–1rem */
 }
 
 /* 📺 Su schermi grandi (desktop), due colonne 50/50 */
@@ -287,6 +289,7 @@ a:hover {
     width: 100%;         /* Occupa tutta la metà destra */
     max-width: none;     /* Rimuove il limite di 300px */
     border-radius: 12px;
+
   }
 }
 
