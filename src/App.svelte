@@ -10,6 +10,8 @@
   import { projects } from './data/projects.js';
   import { newsletter } from './data/newsletter.js';
   import Typewriter from './lib/components/Typewriter.svelte';
+  import PixelRain from './lib/components/PixelRain.svelte';
+
 
 
     import { onMount } from 'svelte';
@@ -47,13 +49,18 @@
 
 </script>
 
-<Nav />
+<div class="page-wrapper">
+<main>
+<!-- <Nav /> -->
+<!-- <PixelRain /> -->
+
 <Hero />
 
 {#if view === 'home'}
 
+<!--
 <section class="container" id="intro-links" style="margin-top:2rem">
-  <h2 class="h1" style="margin-bottom:1.5rem">Scopri di più</h2>
+  <h2 class="h1" style="margin-bottom:1.5rem">Scopri di più</h2> 
   <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem">
     <a
       class="button"
@@ -72,8 +79,9 @@
       <b> Vedi tutti gli articoli → </b>
     </a>
   </div>
-</section>
+</section> -->
 
+<!--
 <section class="container about-section" id="about">
   <div class="about-text">
     <h2 class="h1">Chi sono</h2>
@@ -83,14 +91,16 @@
     <b>luogo di nascita:</b> <Typewriter text="macerata" speed={150} /> <br>
     <b>laurea:</b> <Typewriter text="statistica e data science" speed={150} /> <br>
     <b>lavoro:</b> <Typewriter text="data analyst, data journalist" speed={150} /><br>
-  </div>
+  </div> -->
   
 
-
+<!--
   <div class="about-photo">
-    <img src="./new.jpg" alt="Foto di David Ruffini">
+    <img src="./ritaglio.jpg" alt="Foto di David Ruffini">
   </div>
-</section>
+</section> -->
+
+<!--
 
 <section class="container" id="methods" style="margin-top:2rem">
   <h2 class="h1">Cosa faccio</h2>
@@ -109,20 +119,20 @@ Se vuoi vedere il mio curriculum, puoi farlo <a href="https://drive.google.com/f
     <b>keywords:</b> <Typewriter text="data journalism, data visualization, data analysis, probabilità, web scraping, sviluppo web" speed={100} /><br>
     <b>tecnologie:</b> <Typewriter text="R, Python, Flourish, Datawrapper, HTML, CSS, JavaScript, Svelte, SQL, D3" speed={100} /><br>
     <b>collaborazioni:</b> <Typewriter text="Il Sole 24 Ore, Wired, Aliseo Editoriale, SEC Newgate" speed={100} /><br>
-  </div>
-</section>
+  </div> 
+</section> -->
 
+<!--
 <section class="container" id="contact" style="margin-top:2rem">
-  <h2 class="h1">Contatti</h2>
+   <h2 class="h1">Contatti</h2> 
   <div class="about-text">
-    <p>
-      Ti serve una mano per un progetto, un articolo o un’inchiesta che richieda analisi o visualizzazioni? <br>
+     <p>
+      Ti serve una mano per un progetto, un articolo o un’inchiesta che richiede analisi o visualizzazioni? <br>
       Pensi che quel numero letto nei giornali nasconda altro o sia sbagliato? <br>
     </p>
     <p>
       Se vuoi contattarmi, scrivimi alla mail <a href="mailto:davidruffini98@gmail.com">davidruffini98@gmail.com </a> o tramite i social presenti in fondo alla pagina. Ci sentiamo :)
-    </p>
-
+    </p> 
     <div class="social-icons">
       <ul>
         <li>
@@ -157,14 +167,14 @@ Se vuoi vedere il mio curriculum, puoi farlo <a href="https://drive.google.com/f
         </li>
       </ul>
     </div>
-  </div>
-</section>
+  </div> 
+</section> -->
 
 {/if}
 
 {#if view === 'all-articles'}
-  <section class="container" style="padding:2rem 0">
-<p style="text-align:center;margin-top:2rem">
+  <section class="container" style="padding:0rem 0">
+<p style="text-align:center;margin-top:0rem">
 <a 
   class="button" 
   on:click={() => {
@@ -172,16 +182,16 @@ Se vuoi vedere il mio curriculum, puoi farlo <a href="https://drive.google.com/f
     location.hash = '';   // reset dell’URL
   }}
 >
-  ← Torna alla home
+  ← torna alla home
 </a>
     </p>
-    <h1 class="h1">Tutti gli articoli</h1>
+    <h1 class="h1">articoli</h1>
     <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem">
       {#each articles as a}
         <ProjectCard project={a} />
       {/each}
     </div>
-<p style="text-align:center;margin-top:2rem">
+<p style="text-align:center;margin-top:0rem">
 <a 
   class="button" 
   on:click={() => {
@@ -189,15 +199,15 @@ Se vuoi vedere il mio curriculum, puoi farlo <a href="https://drive.google.com/f
     location.hash = '';   // reset dell’URL
   }}
 >
-  ← Torna alla home
+  ← torna alla home
 </a>
     </p>
   </section>
 {/if}
 
 {#if view === 'all-projects'}
-  <section class="container" style="padding:2rem 0">
-<p style="text-align:center;margin-top:2rem">
+  <section class="container" style="padding:0rem 0">
+<p style="text-align:center;margin-top:0rem">
 <a 
   class="button" 
   on:click={() => {
@@ -205,10 +215,11 @@ Se vuoi vedere il mio curriculum, puoi farlo <a href="https://drive.google.com/f
     location.hash = '';   // reset dell’URL
   }}
 >
-  ← Torna alla home
+  ← torna alla home
 </a>
     </p>
-    <h1 class="h1">Tutti i progetti</h1>
+    <h1 class="h1">
+	progetti</h1>
     <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem">
       {#each projects as p}
         <ProjectCard project={p} />
@@ -222,17 +233,48 @@ Se vuoi vedere il mio curriculum, puoi farlo <a href="https://drive.google.com/f
     location.hash = '';   // reset dell’URL
   }}
 >
-  ← Torna alla home
+  ← torna alla home
 </a>
     </p>
   </section>
 {/if}
 
+</main>
+
+
 <footer class="container">
-  <p class="caption">© David Ruffini, {new Date().getFullYear()} · Realizzato con Svelte · L'header è ispirato a quello di <a href="https://pudding.cool/"> The Pudding </a> </p>
-</footer>
+  <p class="caption">© David Ruffini, {new Date().getFullYear()} </p>
+</footer> 
+
+</div>
 
 <style>
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+
+main {
+  flex: 1;
+    margin: 0;
+  padding: 0;
+}
+
+footer {
+border: none;
+  margin-top: auto; /* forza il footer a stare in fondo */
+}
+
+.container:last-of-type {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+
+
 a {
   text-decoration: underline;
   text-decoration-thickness: 2px;
@@ -240,6 +282,8 @@ a {
   color: black;
   transition: color 0.3s, background-color 0.3s;
 }
+
+
 
 a:hover {
   background-color: black;
@@ -262,35 +306,68 @@ a:hover {
 
 .about-section {
   display: grid;
-  grid-template-columns: 1fr;     /* Mobile: una colonna */
+  grid-template-columns: 1fr 1fr;     /* Mobile: una colonna */
   gap: 2rem;
   align-items: start;
   margin-top: 2rem;
   text-align: left;
 }
 
+.about-photo {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* immagine spinta a destra */
+}
+
+
 /* Foto di default su mobile */
 .about-photo img {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  margin-top: 4rem;  /* regola tu: 0.5–1rem */
+  width: 50%;
+  max-width: none;
+  /*border-radius: 0px;*/
+  /*box-shadow: 0 4px 12px rgba(0,0,0,0.1);*/
+  margin-top: 6rem;  /* regola tu: 0.5–1rem */
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  color: var(--accent);
+  background-color: lightgray;
+  border-color: var(--accent);
+}
+
+.button:hover {
+  background-color: var(--accent);
+  color: white;                 /* Inverti colori al passaggio del mouse */
+}
+
+a.button {
+text-decoration: none;
 }
 
 /* 📺 Su schermi grandi (desktop), due colonne 50/50 */
-@media (min-width: 992px) {
+@media (max-width: 480px) {
   .about-section {
-    grid-template-columns: 1fr 1fr; /* due colonne uguali */
+    grid-template-columns: 1fr; /* due colonne uguali */
     text-align: left;
   }
 
   .about-photo img {
-    width: 100%;         /* Occupa tutta la metà destra */
+    width: 50%;         /* Occupa tutta la metà destra */
     max-width: none;     /* Rimuove il limite di 300px */
-    border-radius: 12px;
+	margin-top: 0rem;
+	    margin-top: 0 !important;
 
   }
+  
+  .about-photo {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
 }
 
 </style>

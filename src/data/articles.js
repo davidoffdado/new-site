@@ -1,5 +1,14 @@
 export const articles = [
   {
+  title: "Dal 7 ottobre al cessate il fuoco",
+  dek: "Cosa ci dicono i dati sulla Striscia?",
+  role: "Data Journalist",
+  year: 2025,
+  tags: ["Il Sole 24 Ore", "13.10.2025"],
+  url: "https://www.infodata.ilsole24ore.com/2025/10/13/dal-7-ottobre-al-cessate-al-fuoco-i-numeri-dellorrore-a-gaza/",
+  cover: "https://images.pexels.com/photos/19544066/pexels-photo-19544066.jpeg"
+  },
+  {
   title: "La strategia israealiana dei double tap nella Striscia di Gaza",
   dek: "La mappa degli attacchi che hanno colpito i soccorritori",
   role: "Data Journalist",

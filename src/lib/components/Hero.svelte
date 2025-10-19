@@ -24,16 +24,23 @@
 </script>
 
 <header class="container" id="top">
-  <p class="badge">Portfolio</p>
-  <h1 class="h0 typing-cursor" style="margin: 0.2rem 0 1rem;">Raccontare una storia, partendo dai dati</h1>
+  <!-- <p class="badge">Portfolio</p> -->
+  <h1 class="h0 typing-cursor" style="margin: 0.2rem 0 1rem;">ciao :)</h1>
 
-  <p class="subtle" style="max-width: 100%;">
-   In questo sito ci sono tutte le mie attività legate al mondo del giornalismo e della comunicazione:   </p>
-   <ul class="subtle">
-   <li> La newsletter <b><a href="https://aalea.substack.com/"> àlea</a></b>, in cui scrivo di incertezza: se pensate che la probabilità appartenga solo ai dipartimenti di matematica e sia lontana dalla vita quotidiana, datele uno sguardo;</li>
-   <li> I <b> progetti </b> di data journalism, lavori “a lunga scadenza” pensati per rimanere fonti affidabili anche nel tempo; </li>
-   <li> Gli <b> articoli </b> di data journalism pubblicati sulle testate giornalistiche.</li>
-   </ul>
+  <p class="subtle" style="max-width: 100%;"> Sono David Ruffini, uno statistico interessato alla data visualization e alla probabilità. Lavoro come data analyst e data journalist; ho scritto per Il Sole 24 Ore, Wired Italia e Aliseo Editoriale.</p>
+   
+   <p class="subtle" style="max-width: 100%;"> Se non sono al computer, sono probabilmente a leggere, ad allenarmi, a cucinare, al cinema, in campagna o in giro.</p>
+
+  <p class="subtle" style="max-width: 100%;"> Per qualsiasi richiesta, puoi contattatarmi via <a href="mailto:davidruffini98@email.com"> mail</a>! </p>
+
+
+   <p class="subtle" style="max-width: 100%;"> 	<a href="https://drive.google.com/file/d/1vNtAIv2O_r0Xsiw0KSw2aWvwWDvdc7AP/view?usp=sharing" target="_blank" rel="noopener"> cv</a>
+												<a href="https://aalea.substack.com/" target="_blank" rel="noopener"> newsletter </a>
+												<a href="#all-projects"> progetti </a> 
+												<a href="#all-articles"> articoli </a>
+												<a href="https://linktr.ee/davidruffini" target="_blank" rel="noopener"> social </a>
+												
+	</p>
 
 
   <!-- Blocco dinamico 
@@ -49,6 +56,9 @@
 </header>
 
 <style>
+
+.container {margin-top: 40px;}
+
 a {
   text-decoration: underline;
   text-decoration-thickness: 2px;
@@ -63,7 +73,7 @@ a:hover {
 }
 
 .intro {
-  font-size: 1.8rem;
+  font-size: 0.5rem;
   color: var(--ink);
   margin-top: 1rem;
   margin-bottom: 0.3rem;
@@ -71,7 +81,7 @@ a:hover {
 }
 
 .rotating {
-  font-size: 1.4rem;
+  font-size: 0.5rem;
   color: var(--accent);
   text-align: center;
   transition: opacity 0.5s ease-in-out;
@@ -84,8 +94,9 @@ a:hover {
 
 .button {
   padding: 0.5rem 1rem;
-  font-size: 1rem;
+  font-size: 0.5rem;
   color: var(--accent);
+  background-color: lightgray;
 }
 
 .button:hover {
@@ -99,8 +110,9 @@ a:hover {
   }
   .button {
     padding: 0.4rem 0.8rem;
-    font-size: 0.9rem;
+    font-size: 0.5rem;
 	color: var(--accent);
+	background-color: lightgray;
   }
 }
 
